@@ -3,13 +3,11 @@
 Wink is a quick build plugin for AndroidStudio，all build process is implment by java and gradle.
 
 
-
 ### How to use
 
-You can use wink by install Wink plugin from AndroidStudio.
+#### Install by download plugin
+1. Download the Plugin from the [Wink.zip](https://s.momocdn.com/s1/u/dcehhhadi/Wink-0.0.2.zip)
+2. Open AndroidStudio 
+3. Drag Wink.zip to AndroidStudio 
+4. Restart AndroidStudio
 
-1. Open File->Preference->Plugins 
-2. Search Wink
-3. install Plugin
-4. Apply 
-5. restart AndroidStudio
