@@ -10,9 +10,14 @@
 ## Install by Gradle
 1 . Find your build.gradle in your project root folder, and add line classpath 'com.immomo.litebuild:plugin:0.1.1' in dependencies block
 ```
+   buildscript {
+    repositories {
+        jcenter()
+    }
     dependencies {
         classpath 'com.immomo.litebuild:plugin:0.1.45'
     }
+}
 ```
 2 . In your main app folder find build.gradle file . Insert line plugin config like demo code
 ```
