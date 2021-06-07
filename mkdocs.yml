@@ -1,3 +1,7 @@
 site_name: Wink
 theme:
   name: material
+  logo: 'images/wink.svg'
+  palette:
+      primary: "black"
+      accent: "Light"
