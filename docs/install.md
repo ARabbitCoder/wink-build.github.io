@@ -10,7 +10,7 @@
 ## Install by Gradle
 1 . Find your build.gradle in your project root folder, and add line classpath 'com.immomo.litebuild:plugin:0.1.1' in dependencies block
 ```
-   buildscript {
+buildscript {
     repositories {
         jcenter()
     }
