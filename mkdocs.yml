@@ -1,4 +1,11 @@
 site_name: Wink
+pages:
+    - Overview: index.md
+    - Getting Started: [install.md,use.md]
+    - Fundamentals: [introduction.md,howwork.md]
+    - Help& Community: [faq.md,stack_overflow.md]
+    - Change Log: changelog.md
+
 theme:
   name: material
   logo: 'images/wink.svg'
