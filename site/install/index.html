@@ -14,7 +14,7 @@
     
     
       
-        <title>Getting Started - Wink</title>
+        <title>Install Wink - Wink</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-started" class="md-skip">
+        <a href="#install-wink" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting Started
+              Install Wink
             
           </span>
         </div>
@@ -219,12 +219,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Getting Started
+          Install Wink
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Getting Started
+        Install Wink
       </a>
       
         
@@ -456,7 +456,7 @@
               
                 
                 
-                <h1 id="getting-started">Getting Started</h1>
+                <h1 id="install-wink">Install Wink</h1>
 <h2 id="install-by-androidstuido-plugin">Install by AndroidStuido Plugin</h2>
 <ol>
 <li>Download the Plugin from the <a href="https://s.momocdn.com/s1/u/dcehhhadi/Wink-0.0.2.zip">Wink.zip</a></li>
@@ -466,9 +466,14 @@
 </ol>
 <h2 id="install-by-gradle">Install by Gradle</h2>
 <p>1 . Find your build.gradle in your project root folder, and add line classpath 'com.immomo.litebuild:plugin:0.1.1' in dependencies block</p>
-<pre><code>    dependencies {
+<pre><code>   buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
         classpath 'com.immomo.litebuild:plugin:0.1.45'
     }
+}
 </code></pre>
 <p>2 . In your main app folder find build.gradle file . Insert line plugin config like demo code</p>
 <pre><code>plugins {

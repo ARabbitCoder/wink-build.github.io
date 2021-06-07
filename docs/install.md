@@ -1,4 +1,4 @@
-# Getting Started
+# Install Wink
 
 ## Install by AndroidStuido Plugin
 1. Download the Plugin from the [Wink.zip](https://s.momocdn.com/s1/u/dcehhhadi/Wink-0.0.2.zip)
