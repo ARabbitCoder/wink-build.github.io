@@ -9,6 +9,7 @@ pages:
 theme:
   name: material
   logo: 'images/wink.svg'
+  favicon: 'images/favicon.png'
   palette:
       primary: "black"
       accent: "Light"
