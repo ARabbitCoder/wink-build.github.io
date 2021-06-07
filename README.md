@@ -8,3 +8,53 @@ During Android development, the build speed of the application directly affects 
 
 ## Features 
 
+
+
+
+## Install 
+
+### Install by AndroidStuido Plugin
+1. Download the Plugin from the [Wink.zip](https://s.momocdn.com/s1/u/dcehhhadi/Wink-0.0.2.zip)
+2. Open AndroidStudio 
+3. Drag Wink.zip to AndroidStudio 
+4. Restart AndroidStudio
+
+### Run by AndroidStudio Plugin
+1. When you install plugin success. After you open a project  you can see wink button like this screenshot. 
+
+    ![wink_btn](https://s.momocdn.com/s1/u/dcehhhadi/wink_btn.png)
+
+2. Click wink button you can see dialog like this.Choose your project‘s root build.gradle file and main app build.gradle file. Automic change gradle file by click install btn.
+    ![wink_btn](https://s.momocdn.com/s1/u/dcehhhadi/config_wink.png)
+
+3. Click wink button again ,you will see log on wink console.
+    ![wink_console](https://s.momocdn.com/s1/u/dcehhhadi/wink_console.png)
+
+### Install by Gradle
+1 . Find your build.gradle in your project root folder, and add line classpath 'com.immomo.litebuild:plugin:0.1.1' in dependencies block
+```
+   buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.immomo.litebuild:plugin:0.1.45'
+    }
+}
+```
+2 . In your main app folder find build.gradle file . Insert line plugin config like demo code
+```
+plugins {
+    id 'com.android.application'
+    id 'com.immomo.litebuild.plugin'
+    id 'kotlin-android'
+}
+```
+or like this 
+
+    apply plugin: 'com.android.application'
+    apply plugin: 'com.immomo.litebuild.plugin'
+
+### Run by Gradle or Terminal
+1. After install plugin you can run by Wink button or run by gradle task litebuild in gradle task list .
+    ![wink_console](https://s.momocdn.com/s1/u/dcehhhadi/lite-build.png)
